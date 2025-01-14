@@ -1,0 +1,25 @@
+name: modul_cam_qr_1686
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  camera: ^0.10.5+2 # access to hardware
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  mobile_scanner: ^3.2.0 # scan qr code
+  path_provider: ^2.0.15 #provide path to save file
+  qr_flutter: ^4.1.0
+
+flutter:
+  uses-material-design: true
